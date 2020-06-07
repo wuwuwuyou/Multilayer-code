@@ -1,0 +1,8 @@
+repair-1 :  逆操作了所有行，列-------只下载部分行，列 调用求逆矩阵和矩阵乘法求的修复---没调用RS解码------- 速率极低
+repair-2 :  逆操作了所有行，列-------只下载部分行，列---------- 调用RS解码
+repair-3 : 调用RS解码 下载全部行，列，与解码一样---逆操作了所有行，列
+repair-4 : 调用RS解码 按照论文中修复方法，只下载部分行，列-----只逆操作了需要下载的行，列 
+encoder --Multily Layer encode
+decoder-1  :Multily Layer decode
+
+decoder:jidong
